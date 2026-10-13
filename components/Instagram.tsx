@@ -7,7 +7,7 @@ export function Instagram() {
         <Reveal className="instagram-inner">
           <div>
             <p className="eyebrow">Instagram</p>
-            <h2 id="instagram-title">Follow the work as it happens.</h2>
+            <h2 id="instagram-title">See the sites, not just the brochure.</h2>
           </div>
           <a className="btn btn-secondary" href="https://www.instagram.com/sxw_carpentry_ltd_/" target="_blank" rel="noopener noreferrer">
             Follow on Instagram

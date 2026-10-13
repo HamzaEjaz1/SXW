@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MobileBar } from "@/components/MobileBar";
 import { Providers } from "@/components/Providers";
+import { WhatsAppChat } from "@/components/WhatsAppChat";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -109,6 +110,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {children}
           <Footer />
           <MobileBar />
+          <WhatsAppChat />
         </Providers>
       </body>
     </html>

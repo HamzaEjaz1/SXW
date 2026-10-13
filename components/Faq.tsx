@@ -29,7 +29,7 @@ export function Faq() {
       <div className="wrap faq-grid">
         <Reveal>
           <p className="eyebrow">Questions</p>
-          <h2 id="faq-title">Before you get in touch.</h2>
+          <h2 id="faq-title">The questions people ask first.</h2>
         </Reveal>
         <Reveal className="faq-list" delay={0.08}>
           {questions.map((item) => (

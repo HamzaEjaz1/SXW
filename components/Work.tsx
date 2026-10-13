@@ -73,8 +73,8 @@ export function Work() {
       <div className="wrap">
         <Reveal className="section-head">
           <p className="eyebrow">The work</p>
-          <h2 id="work-title">Framing on site. Precision at the bench.</h2>
-          <p>Photography of the carpentry and joinery we carry out. Individual developments are not listed as named case studies here.</p>
+          <h2 id="work-title">A look at the making of it.</h2>
+          <p>These are photographs of the carpentry and joinery we do, on site and at the bench. We have not turned them into named case studies.</p>
         </Reveal>
 
         <Reveal>

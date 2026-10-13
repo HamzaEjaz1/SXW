@@ -1,15 +1,16 @@
 "use client";
 
 import { motion, useScroll, useSpring } from "framer-motion";
+import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Arrow } from "@/components/Arrow";
 
 const links = [
-  { id: "about", label: "About" },
-  { id: "services", label: "Services" },
-  { id: "work", label: "Work" },
-  { id: "accreditations", label: "Accreditations" },
-  { id: "contact", label: "Contact" },
+  { href: "/#about", id: "about", label: "About" },
+  { href: "/#services", id: "services", label: "Services" },
+  { href: "/guides", id: "guides", label: "Guides" },
+  { href: "/#accreditations", id: "accreditations", label: "Accreditations" },
+  { href: "/#contact", id: "contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -19,6 +20,7 @@ export function Header() {
   const [current, setCurrent] = useState("");
   const toggleRef = useRef<HTMLButtonElement>(null);
   const navRef = useRef<HTMLElement>(null);
+  const pathname = usePathname();
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 140, damping: 28, restDelta: 0.001 });
 
@@ -140,17 +142,21 @@ export function Header() {
           aria-hidden={mobile && !open ? true : undefined}
         >
           <ul>
-            {links.map((link) => (
-              <li key={link.id}>
-                <a
-                  href={`/#${link.id}`}
-                  aria-current={current === link.id ? "true" : undefined}
-                  onClick={() => setOpen(false)}
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
+            {links.map((link) => {
+              const active =
+                link.id === "guides" ? pathname.startsWith("/guides") : pathname === "/" && current === link.id;
+              return (
+                <li key={link.id}>
+                  <a
+                    href={link.href}
+                    aria-current={active ? "true" : undefined}
+                    onClick={() => setOpen(false)}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
           <a className="btn btn-primary nav-cta" href="/#contact" onClick={() => setOpen(false)}>
             Get a quote

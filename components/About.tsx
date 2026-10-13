@@ -7,12 +7,12 @@ export function About() {
       <div className="wrap about-grid">
         <Reveal className="about-copy">
           <p className="eyebrow">About us</p>
-          <h2 id="about-title">Welcome to SXW Carpentry Ltd</h2>
+          <h2 id="about-title">A carpentry company that still answers the phone.</h2>
           <p>
-            SXW Carpentry Ltd was established in 2015. We are a fast-growing company based in the Southwest of England. We work primarily within the development construction industry; however, we will also take on stand-alone carpentry projects too.
+            We started SXW Carpentry Ltd in 2015, in the Southwest of England. The diary is mostly development construction. When someone needs a stand-alone carpentry project, we take that on as well.
           </p>
           <p>
-            We are well known for our attention to detail and craftsmanship within the carpentry and joinery sector, striving to produce the very best standards in the industry.
+            People know us for the detail. Carpentry and joinery is the trade, and we still aim for the best standard we can put our name to. If that sounds like the team you want on a site, talk to us before the programme gets tight.
           </p>
         </Reveal>
         <Reveal className="about-visual" delay={0.1}>

@@ -10,28 +10,28 @@ const services = [
     title: "Development construction",
     project: "Development construction",
     lead: true,
-    copy: "We work primarily within the development construction industry, bringing carpentry and joinery onto sites across the Southwest of England.",
+    copy: "This is the heart of the business. We bring carpentry and joinery onto development sites across the Southwest, and we stay with the detail through to handover.",
   },
   {
     index: "02",
     title: "Stand-alone projects",
     project: "Stand-alone project",
     lead: false,
-    copy: "We also take on stand-alone carpentry projects, with the same attention to detail we bring to development work.",
+    copy: "Not every job sits on a site programme. If yours stands alone, we will look at it and bring the same attention we give a development.",
   },
   {
     index: "03",
     title: "Carpentry and joinery",
     project: "Carpentry and joinery",
     lead: false,
-    copy: "Craftsmanship in the carpentry and joinery sector, held to the standard the company is known for.",
+    copy: "The trade itself. Careful carpentry and joinery, done by people who are used to being judged on the finish.",
   },
   {
     index: "04",
     title: "Fire door installation",
     project: "Fire door installation",
     lead: false,
-    copy: "Accredited for fire door installation via BlueSky. We can certify the fire doors we install without having to include a third party.",
+    copy: "We are accredited through BlueSky. The fire doors we install can be certified by us, so you do not need a third party for that part of the job.",
   },
 ];
 
@@ -43,9 +43,9 @@ export function Services() {
       <div className="wrap">
         <Reveal className="section-head">
           <p className="eyebrow">What we do</p>
-          <h2 id="services-title">Carpentry for the site, and for the project that stands alone.</h2>
+          <h2 id="services-title">The work we are actually asked to do.</h2>
           <p>
-            Development construction is the core of the business. Stand-alone carpentry, joinery, and certified fire door installation sit alongside it.
+            Development packages come first. Stand-alone carpentry, joinery, and fire doors we can certify ourselves sit alongside that. If you are not sure which box you fit in, call anyway.
           </p>
         </Reveal>
         <div className="service-grid">

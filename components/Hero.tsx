@@ -22,13 +22,13 @@ export function Hero() {
           }}
         >
           <motion.p className="eyebrow" variants={fade}>
-            Established 2015 · Devizes
+            Carpentry contractors in Devizes
           </motion.p>
           <motion.h1 id="hero-title" variants={fade}>
-            Carpentry and joinery for development construction.
+            We look after the carpentry, and we stay with the standard.
           </motion.h1>
           <motion.p className="lede" variants={fade}>
-            Award-winning contractors based in Devizes. We work across the Southwest of England on development sites, and on stand-alone carpentry when the brief needs the same standard.
+            SXW Carpentry Ltd has been based in Devizes since 2015. Most weeks we are on development sites across the Southwest. When a job stands on its own, we bring the same care to that too.
           </motion.p>
           <motion.div className="hero-actions" variants={fade}>
             <a className="btn btn-primary" href="#contact">
@@ -83,7 +83,6 @@ export function Hero() {
             />
             <figcaption>Development construction</figcaption>
           </motion.figure>
-          <p className="hero-note">Based in Devizes, working across the Southwest.</p>
         </motion.div>
       </div>
     </section>

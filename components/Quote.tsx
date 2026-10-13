@@ -7,6 +7,7 @@ export function Quote() {
         <Reveal>
           <blockquote>
             <p>Taking small steps forward each day, leads to success.</p>
+            <footer>The line we work by, at SXW Carpentry Ltd.</footer>
           </blockquote>
         </Reveal>
       </div>

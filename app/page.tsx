@@ -5,6 +5,7 @@ import { Contact } from "@/components/Contact";
 import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { Instagram } from "@/components/Instagram";
+import { Journal } from "@/components/Journal";
 import { LeadProvider } from "@/components/LeadProvider";
 import { Process } from "@/components/Process";
 import { Quote } from "@/components/Quote";
@@ -22,6 +23,7 @@ export default function HomePage() {
         <Work />
         <Process />
         <Accreditations />
+        <Journal />
         <Faq />
         <Quote />
         <Instagram />

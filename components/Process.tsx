@@ -7,22 +7,22 @@ import { useLead } from "@/components/LeadProvider";
 const steps = [
   {
     no: "01",
-    title: "Make contact",
-    copy: "Call or email the team in Devizes. Say whether the work is on a development or a stand-alone carpentry project.",
+    title: "Say hello",
+    copy: "Call or email the team in Devizes. Tell us if it is a development package or a job that stands on its own.",
   },
   {
     no: "02",
-    title: "Talk through the brief",
-    copy: "We look at the carpentry and joinery required, including fire door installation where that is part of the package.",
+    title: "Walk through the job",
+    copy: "We talk about the carpentry and joinery, and about fire doors if they are part of what you need.",
   },
   {
     no: "03",
-    title: "Carry out the work",
-    copy: "The company is known for attention to detail in carpentry and joinery, and for aiming at the best standards in the industry.",
+    title: "Do the work",
+    copy: "We are known for the detail. That is the standard we take onto the site, not a line we add at the end.",
   },
   {
     no: "04",
-    title: "Hold the standard",
+    title: "Leave it properly",
     copy: "NHBC recognised the company in 2023 and 2024. Fire doors we install can be certified by us under our BlueSky accreditation.",
   },
 ];
@@ -36,7 +36,7 @@ export function Process() {
       <div className="wrap">
         <Reveal className="section-head">
           <p className="eyebrow eyebrow-light">Working with us</p>
-          <h2 id="process-title">A straightforward way to start.</h2>
+          <h2 id="process-title">How it usually goes, once you call.</h2>
         </Reveal>
         <div className="steps-wrap">
           <motion.span
